@@ -1,0 +1,46 @@
+@charset "utf-8";
+#header {
+	width: 800px;
+	height: 130px;
+	background-image: url(images/header_bg.jpg);
+}
+#content {
+	width: 800px;
+	background-image: url(images/content_bg.jpg);
+	background-repeat: repeat-y;
+	float: left;
+}
+#footer {
+	background-image: url(images/footer_bg.jpg);
+	width: 800px;
+	height: 52px;
+	clear: left;
+	background-repeat: no-repeat;
+}
+#contentL {
+	width: 245px;
+	float: left;
+	
+}
+#contentR {
+	margin-left: 245px;
+}
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #767676;
+	background-image: url(images/cute_design_bg.png);
+	background-repeat: repeat-x;
+	margin-top: 28px;
+}
+#sidemenu {
+	background-image: url(images/menu_bg.jpg);
+	width: 180px;
+	height: 302px;
+	margin-left: 40px;
+	padding-left: 13px;
+}
+#listNew {
+	margin-left: 50px;
+	margin-right: 30px;
+}
